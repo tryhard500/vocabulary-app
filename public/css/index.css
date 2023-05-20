@@ -1,0 +1,53 @@
+body {
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    background-color: rgb(99, 183, 243);
+    width: 250px;
+    height: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+.right {
+    width: 250px;
+    height: 250px;
+}
+
+.left, .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.word {
+    text-transform: uppercase;
+}
+
+input {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    width: 80%;
+    text-align: center;
+}
+
+
+
+.incorrect .translation-input {
+    outline: 4px solid red;
+    outline-offset: 10px;
+}
+
+.hide {
+    display: none;
+}
